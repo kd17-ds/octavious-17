@@ -1,0 +1,94 @@
+body{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  background-color:rgb(191,140,224) ;
+  position: relative;
+}
+.box1{
+    
+    width: 1800px;
+    height: 100px;
+  
+}
+.t1{
+  position: absolute;
+  left:185px;
+  font-size: 60px;
+  top: 0px;
+}
+.t2{
+  position: absolute;
+  right:190px;
+  font-size: 40px;
+  top:400px;
+}
+.t3{
+  position: absolute;
+  left: 185px;
+  font-size: 40px;
+  top: 700px;
+}
+.n1{
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  font-size: 30px;
+}
+.n2{
+  position: absolute;
+  right:800px;
+  font-size: 30px;
+  top: 470px;
+
+}
+.n3{
+  position: absolute;
+  left: 200px;
+  top: 780px;
+  font-size: 30px;
+}
+.p1{
+  position: absolute;
+  left: 200px;
+  top: 190px;
+  font-size:19px;
+}
+.p2{
+  position: absolute;
+  right:500px ;
+  top: 550px;
+  font-size: 19px;
+}
+.p3{
+  position: absolute;
+  left: 200px;
+  top: 880px;
+  font-size: 19px;
+}
+body{
+    top: 0px;
+    left:0px;
+    z-index: -1;
+    text-align: left;
+}
+.img1{
+  top:150px;
+  right:0px;
+  left:1000px;
+  position: absolute;
+  border-radius: 12px;
+}
+.img2{
+  top: 510px;
+  right: 1100px;
+  position: absolute;
+   border-radius: 12px;
+}
+.img3{
+  top:850px;
+  left: 1000px;
+  position: absolute;
+  border-radius:12px ;
+}
