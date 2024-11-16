@@ -1,9 +1,13 @@
-body{
+.body{
   font-family: "Edu AU VIC WA NT Pre", cursive;
-  font-optical-sizing: auto;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
   
   font-style: normal;
   background-color:rgb(191,140,224) ;
+  
   position: relative;
 }
 .box1{
@@ -19,6 +23,7 @@ body{
   top: 0px;
 }
 .t2{
+  
   position: absolute;
   right:190px;
   font-size: 40px;
@@ -29,6 +34,32 @@ body{
   left: 185px;
   font-size: 40px;
   top: 700px;
+}
+.t4{
+  position:absolute;
+  right: 190px;
+  font-size: 40px;
+  top: 1100px;
+
+}
+.t5{
+  position: absolute;
+  left: 185px;
+  font-size: 40px;
+  top: 1500px;
+}
+.t6{
+  position: absolute;
+  right: 188px;
+  font-size:40px ;
+  top: 1900px;;
+}
+.t7{
+  position: absolute;
+  left: 185px;
+  font-size: 40px;
+  top: 2200px;
+
 }
 .n1{
   position: absolute;
@@ -49,6 +80,30 @@ body{
   top: 780px;
   font-size: 30px;
 }
+.n4{
+  position: absolute;
+  right:800px ;
+  font-size: 30px;
+  top: 1200px;
+}
+.n5{
+  position: absolute;
+  left:200px ;
+  top:1600px ;
+  font-size: 30px;
+}
+.n6{
+  position: absolute;
+  right: 500px;
+  font-size: 30px;
+  top: 1950px;
+}
+.n7{
+  position:absolute;
+  left: 200px;
+  top: 2250px;
+  font-size: 30px;
+}
 .p1{
   position: absolute;
   left: 200px;
@@ -57,7 +112,7 @@ body{
 }
 .p2{
   position: absolute;
-  right:500px ;
+  right:300px ;
   top: 550px;
   font-size: 19px;
 }
@@ -67,8 +122,35 @@ body{
   top: 880px;
   font-size: 19px;
 }
+.p4{
+  position: absolute;
+  right:300px ;
+  font-size: 19px;
+  top: 1300px;
+}
+.p5{
+  position: absolute;
+  left:200px;
+  top: 1680px;
+  font-size: 19px;
+}
+.p6{
+  position: absolute;
+  right: 190px;
+  font-size: 19px;
+  top: 2000px;
+}
+.p7{
+  position: absolute;
+  left: 200px;
+  top: 2300px;
+  font-size: 19px;
+}
 body{
     top: 0px;
+    background-color: rgb(191,140,224);
+    background-position: absolute;
+    background-size: 6000px;
     left:0px;
     z-index: -1;
     text-align: left;
@@ -92,3 +174,28 @@ body{
   position: absolute;
   border-radius:12px ;
 }
+.img4{
+  top: 1300px;
+  right: 1100px;
+  position: absolute;
+  border-radius: 12px;
+}
+.img5{
+  top: 1600px;
+  left: 1000px;
+  position: absolute;
+  border-radius: 12px;
+}
+.img6{
+  top: 1950px;
+  right: 1100px;
+  position: absolute;
+  border-radius:12px ;
+}
+.img7{
+  top: 2200px;
+  left: 1000px;
+  position: absolute;
+  border-radius:12px ;
+}
+
