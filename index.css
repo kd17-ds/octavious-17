@@ -1,187 +1,129 @@
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: "Edu AU VIC WA NT Pre", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  text-align: center;
-  font-size: 20px;
-  background-image: url(back.png);
+  background-image: url(media/back.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-
-
+  background-size: cover;
+  font-family: "Edu AU VIC WA NT pre", cursive;
 }
-
-.team{
-    position: absolute;
-    top: 50px;
-    left: 700px;
-    text-align: center;
-    font-size: 60px;
-    text-shadow: 2px 2px 2px purple;
-    
+.navbar {
+  height: 80px;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  padding: 0px 50px;
 }
-.wel{
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    font-size: 40px;
-    opacity: 1.0;
-    text-shadow: 2px 2px 2px purple;
-
-
-
-    
+.navbar img {
+  width: 70px;
 }
-.wel:hover{
-    opacity: 0.5;
+.main {
+  margin-top: 80px;
 }
-.para{
-    position: absolute;
-    top: 300px;
-    
-        animation-duration: 10s;
-        animation-name: slide-in;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-      
-      
-
+.team {
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px purple;
+  margin: 0px;
 }
-.box1{
-     
-     width: 1900px;
-     height: 500px;
-     border-radius: 12px;
+.navbar ul {
+  width: 800px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
-.navbar{
-    color: black;
-    position: fixed;
-    top: 10;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 1000;
-    transition: 0.3s;
+.navbar ul li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
-.navbar li{
-    margin: 0 15px;
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
 }
-.navbar ul{
-    list-style: none;
-    display: flex;
+.box1 {
+  margin: 180px auto;
+  font-size: 20px;
+  width: 1650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.navbar a{
-    color: black;
-    text-decoration: none;
-    font-size: 1.1em;
-    padding: 10px 15px;
-    transition: 0.3s
+.info {
+  width: 900px;
 }
-.navbar a:hover{
-    border-radius: 5px;
+.wel {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  opacity: 1;
+  text-shadow: 2px 2px 2px purple;
 }
-.box2{
-    background-color: rgb(152, 42, 167);
-    width: 400px;
-    height: 400px;
-    border-radius: 12px;
-    position: absolute;
-    left: 50px;
-    top: 700px;
+.wel:hover {
+  opacity: 0.7;
 }
-.img1 {border-radius: 20px ;
-    position: absolute;
-    left: 1300px;
-    top: 250px
-   ;
-    opacity: 1.0;
-   
+.img1 {
+  border-radius: 20px;
+  width: 550px;
+  height: 350px;
 }
-
-
-.border::before{
-    position: absolute;
-    height: 130%;
-    background-image: linear-gradient(180deg,rgb(0,183,255),rgb(225,48,255));
-    animation: rotBGimg 3s linear infinite;
-    transition: all 0.2s linear;
+.box2 {
+  margin: 180px auto;
+  font-size: 20px;
+  width: 1650px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-img:hover{
-    opacity: 0.5;
+.img2 {
+  border-radius: 20px;
+  width: 550px;
+  height: 350px;
 }
-.box3{
-    background-color: rgb(152, 42, 167);
-    width: 400px;
-    height: 400px;
-    border-radius: 12px;
-    position: absolute;
-    left: 500px;
-    top: 700px;
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 300px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-
-
-.img2{
-    border-radius: 12px;
+.rightSide {
+  text-align: center;
 }
-.rev{
-    position: absolute;
-    top: 600px;
-    left: 1000px;
-    opacity: 1.0;
-    text-shadow: 2px 2px 2px purple;
+.to {
+  width: 200px;
 }
-.rev:hover{
-    opacity: 0.5;
+.raj {
+  font-size: 22px;
+  margin-bottom: 30px;
 }
-.para2{
-    position: absolute;
-    top: 690px;
-    left: 850px;
+div.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
-.raj{
-    position: absolute;
-    top: 1200px;
-    left: 770px;
-    text-align: center;
+.leftSide {
+  text-align: center;
 }
-.insta{
-  position: absolute;
-  top: 1180px;
-  left: 800px;
+.TeamHead {
+  margin-top: 40px;
+  font-size: 22px;
+  margin-bottom: 30px;
 }
-.you{
-    position: absolute;
-    top: 1180px;
-    left: 900px;
+.leftSide p4 {
+  line-height: 2;
+  font-size: 20px;
 }
-.call{
-    position: absolute;
-    top: 1180px;
-    left: 1000px;
-}
-.img2{border-radius: 20px ;
-    position: absolute;
-    left: 250px;
-    top: 630px
-   ;
-    opacity: 1.0;
-}
-H4{
-    position: absolute;
-    top: 930px;
-    left: 880px;
-}
-p4{
-    position: absolute;
-    top: 1000px;
-    left: 890px;
-}
-.mail{
-    position: absolute;
-    top: 1180px;
-    left: 1100px;
-}
-
-
