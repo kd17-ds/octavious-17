@@ -1,0 +1,94 @@
+body{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin:  100px auto;
+    font-family:  "Edu AU VIC WA NT pre", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+}
+.heading{
+    text-shadow:  2px 2px 2px  purple;
+   font-size: 40px;
+}
+.navbar{
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    padding: 0px 50px;
+    }
+    .navbar img {
+        width: 70px;
+      }
+      .main {
+        margin-top: 80px;
+      }
+      .team {
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 2px 2px 2px purple;
+        margin: 0px;
+      }
+      .navbar ul {
+        width: 800px;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .navbar ul li:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+      .navbar a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.2em;}
+        
+        
+.box1{
+    height: 600px;
+    width: 1400px;
+ 
+    position: relative;
+   margin: 0px auto;
+   padding: 2em;
+  display: flex;
+   border-radius: 12px;
+   box-shadow: 10px 10px 10px #7e7e7e ;
+}
+
+.box2{
+    
+    height: 550px;
+    width: 660px;
+    border: 3px black;
+   position: relative;
+    border-radius: 12px;
+    margin: 30px auto;
+    text-align: left;
+
+}
+.box3{
+    height: 535px;
+    width: 660px;
+   
+    border: 3px black;
+   text-align: left;
+   padding:  6px 8px ;
+   border-radius: 12px;
+   margin: 30px auto;
+  
+}
+h2{
+    text-align: center;
+    color: rgb(189, 43, 226);
+}
