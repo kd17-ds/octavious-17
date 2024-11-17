@@ -1,5 +1,5 @@
 .heading {
-  text-shadow: 2px 2px 2px purple;
+  text-shadow: 2px 2px 2px #0057a5;
   font-size: 40px;
 }
 .info {
@@ -16,7 +16,8 @@
   font-size: 20px;
 }
 .thanks {
-  margin: 0px auto;
-  text-shadow: 4px 4px 4px purple;
+  margin: 20px auto;
+  text-shadow: 4px 4px 4px #0057a5;
   font-size: 60px;
+  text-align: center;
 }

@@ -3,7 +3,7 @@ body {
   margin: 120px auto 0px;
 }
 .heading {
-  text-shadow: 2px 2px 2px purple;
+  text-shadow: 2px 2px 2px #0057a5;
   font-size: 40px;
   margin-bottom: 40px;
 }
@@ -35,9 +35,10 @@ body {
   padding: 6px 8px;
   border-radius: 12px;
   margin: 0px auto;
+  
 }
 h2 {
   margin-bottom: 20px;
   text-align: center;
-  color: rgb(189, 43, 226);
+  color: #0057a5;
 }
