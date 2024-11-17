@@ -1,0 +1,22 @@
+.heading {
+  text-shadow: 2px 2px 2px purple;
+  font-size: 40px;
+}
+.info {
+  height: 500px;
+  width: 1400px;
+  box-shadow: 4px 4px 4px black;
+  margin: 150px auto;
+  display: flex;
+}
+.info p {
+  margin: 80px auto;
+  display: flex;
+  text-align: left;
+  font-size: 20px;
+}
+.thanks {
+  margin: 0px auto;
+  text-shadow: 4px 4px 4px purple;
+  font-size: 60px;
+}
