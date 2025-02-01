@@ -12,7 +12,7 @@ body {
   width: 1400px;
   position: relative;
   margin: 0px auto;
-  padding: 2em;
+  padding: 3em;
   display: flex;
   border-radius: 12px;
   box-shadow: 10px 10px 10px #7e7e7e;
@@ -35,7 +35,6 @@ body {
   padding: 6px 8px;
   border-radius: 12px;
   margin: 0px auto;
-  
 }
 h2 {
   margin-bottom: 20px;
